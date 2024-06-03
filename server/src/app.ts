@@ -19,7 +19,7 @@ config({
 });
 
 const port = process.env.PORT || 4000;
-const mongoURI = process.env.MONGO_URI || "mongodb+srv://aniketkesarwani:Mongo2345@mern.mgjpo4g.mongodb.net/?retryWrites=true&w=majority&appName=MERN";
+const mongoURI = process.env.MONGO_URI || "";
 const stripeKey = process.env.STRIPE_KEY || "";
 
 connectDB(mongoURI);
